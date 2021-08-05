@@ -1,0 +1,51 @@
+.Checkout_Inputs{
+    width: 500px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 2px 0px 3px 5px;
+    border: 1px solid grey;
+
+}
+.Checkout_Inputs:hover{
+    box-shadow: 0px 0px 5px #a6ff00;
+}
+#Checkout_Country_Select{
+    width: 500px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 2px 0px 5px 5px;
+    border: 1px solid grey;
+    background-color: #e4e4e4;
+    color: black;
+}
+#Checkout_Country_Select:hover{
+    box-shadow: 0px 0px 5px #a6ff00;
+}
+.Checkout_Country_Option1{
+    background-color: #33ff003b;
+}
+.Checkout_Country_Option2{
+    background-color: #eeff004f;
+}
+.Checkout_Confirm_Button{
+    padding: 3px 20px 3px 20px;
+    border-radius: 3px;
+    outline: none!important;
+    color: black;
+    font-weight: 500;
+    background-color:  #bbff00;
+}
+.Checkout_Confirm_Button:hover{
+    background-color: #00ff55;
+
+}
+@media(max-width:650px){
+    .Checkout_Inputs{
+        width: 300px;
+    }
+    #Checkout_Country_Select{
+        width: 300px;
+    }
+}

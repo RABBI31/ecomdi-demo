@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="40px" viewBox="0 0 42 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Latest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Device-1" transform="translate(-827.000000, -1706.000000)" fill="#D5DBDB" fill-rule="nonzero">
+            <g id="chat" transform="translate(827.000000, 1706.000000)">
+                <polygon id="Shape" points="22 30 13.2 30 8 35.2 8 30 4 30 4 18 6 18 6 14 0 14 0 34 4 34 4 40 8.8 40 14.8 34 26 34 26 28 22 28"></polygon>
+                <path d="M8,0 L8,26 L27.2,26 L33.2,32 L38,32 L38,26 L42,26 L42,0 L8,0 Z M38,22 L34,22 L34,27.2 L28.8,22 L12,22 L12,4 L38,4 L38,22 Z" id="Shape"></path>
+                <rect id="Rectangle-path" x="16" y="8" width="18" height="4"></rect>
+                <rect id="Rectangle-path" x="16" y="14" width="12" height="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+.Products_Cards{
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    width: 200px;
+    color: black;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-bottom: 10px;
+}

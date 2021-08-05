@@ -1,0 +1,121 @@
+.Jobs_By_Location_Cards{
+    height: 100%;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.507);
+}
+.Jobs_By_Location_Cards_Title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+.Jobs_By_Location_Cards_Description{
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+}
+.Jobs_By_Location_Button{
+    color: white;
+    margin-top: 30px;
+    border-radius: 3px;
+    outline: none!important;
+    border: 1px solid white;
+    padding: 5px 15px 5px 15px;
+    transition: all .3s ease-in-out;
+}
+.Jobs_By_Location_Button:hover{
+    background: white;
+    color: black;
+}
+.Jobs_By_Location_Card1{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 40%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    background-image: url(./Aachen_square.jpg);
+}
+.Jobs_By_Location_Card1:hover{
+    padding: 0px;
+}
+.Jobs_By_Location_Card2{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 40%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    background-image: url(./Bogota-thumbnail.jpg);
+}
+.Jobs_By_Location_Card2:hover{
+    padding: 0px;
+}
+.Jobs_By_Location_Card3{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 40%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    background-image: url(./Boulder-thumb.jpg);
+}
+.Jobs_By_Location_Card3:hover{
+    padding: 0px;
+}
+.Jobs_By_Location_Card4{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 40%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    background-image: url(./brussels_square.jpg);
+}
+.Jobs_By_Location_Card4:hover{
+    padding: 0px;
+}
+.Jobs_By_Location_Card5{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 40%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    background-image: url(./Chengdu_square.jpg);
+}
+.Jobs_By_Location_Card5:hover{
+    padding: 0px;
+}
+.Jobs_By_Location_Card6{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 40%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    background-image: url(./d39w7f4ix9f5s9.cloudfront.net.jpg);
+}
+.Jobs_By_Location_Card6:hover{
+    padding: 0px;
+}
+.Jobs_By_Location_Card7{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 40%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    background-image: url(./in--delhi-delhi.jpg);
+}
+.Jobs_By_Location_Card7:hover{
+    padding: 0px;
+}

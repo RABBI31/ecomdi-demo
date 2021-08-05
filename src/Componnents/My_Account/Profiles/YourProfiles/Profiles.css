@@ -1,0 +1,15 @@
+.AccountButton{
+    background-color: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.AccountButton:hover{
+    color: blue;
+    font-size: 24px;
+}
+.ml{
+    margin-left: 300px;
+}

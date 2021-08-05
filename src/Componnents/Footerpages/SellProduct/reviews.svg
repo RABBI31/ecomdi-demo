@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="447px" height="230px" viewBox="0 0 447 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Low fi / Reviews</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="383" height="166" rx="8"></rect>
+        <filter x="-12.5%" y="-28.9%" width="125.1%" height="157.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="31" height="67"></rect>
+    </defs>
+    <g id="Final-Comps" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sell-Dot-02-Sell" transform="translate(-904.000000, -10216.000000)">
+            <g id="After-your-first-sale" transform="translate(-320.000000, 9910.000000)">
+                <g id="Get-reviews" transform="translate(746.000000, 338.000000)">
+                    <g id="Low-fi-/-Reviews" transform="translate(510.000000, 0.000000)">
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Stars" stroke-width="1" fill-rule="evenodd" transform="translate(32.000000, 48.000000)">
+                            <polygon id="Star-1" fill="#FF9900" points="32 53.75 13.1908719 63.7930523 16.7830957 42.5215262 1.56619148 27.4569477 22.595436 24.3534738 32 5 41.404564 24.3534738 62.4338085 27.4569477 47.2169043 42.5215262 50.8091281 63.7930523"></polygon>
+                            <polygon id="Star-2" fill="#FF9900" points="96 53.75 77.1908719 63.7930523 80.7830957 42.5215262 65.5661915 27.4569477 86.595436 24.3534738 96 5 105.404564 24.3534738 126.433809 27.4569477 111.216904 42.5215262 114.809128 63.7930523"></polygon>
+                            <polygon id="Star-3" fill="#FF9900" points="161 53.75 142.190872 63.7930523 145.783096 42.5215262 130.566191 27.4569477 151.595436 24.3534738 161 5 170.404564 24.3534738 191.433809 27.4569477 176.216904 42.5215262 179.809128 63.7930523"></polygon>
+                            <polygon id="Star-4" fill="#FF9900" points="223 53.75 204.190872 63.7930523 207.783096 42.5215262 192.566191 27.4569477 213.595436 24.3534738 223 5 232.404564 24.3534738 253.433809 27.4569477 238.216904 42.5215262 241.809128 63.7930523"></polygon>
+                            <polygon id="Star-5" fill="#EAEDED" points="287 53.75 268.190872 63.7930523 271.783096 42.5215262 256.566191 27.4569477 277.595436 24.3534738 287 5 296.404564 24.3534738 317.433809 27.4569477 302.216904 42.5215262 305.809128 63.7930523"></polygon>
+                            <g id="Star-5-Overlay" transform="translate(270.500000, 33.500000) scale(-1, 1) translate(-270.500000, -33.500000) translate(255.000000, 0.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <polygon id="Star-Copy-4" fill="#FF9900" mask="url(#mask-4)" points="-1.03028697e-13 53.6985294 -18.2213428 63.7461261 -14.741376 42.4649748 -29.482752 27.3935798 -9.11067141 24.2887017 -1.10134124e-13 4.92647059 9.11067141 24.2887017 29.482752 27.3935798 14.741376 42.4649748 18.2213428 63.7461261"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

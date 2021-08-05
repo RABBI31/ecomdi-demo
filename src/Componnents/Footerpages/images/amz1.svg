@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="240px" viewBox="0 0 384 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Low fi / Pricing Dashboard Graph</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Final-Comps" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sell-Dot-02-Sell" transform="translate(-426.000000, -9500.000000)">
+            <g id="Attracting-customers" transform="translate(120.000000, 8290.000000)">
+                <g id="Stay-competitive" transform="translate(306.000000, 1210.000000)">
+                    <g id="Low-fi-/-Pricing-Dashboard-Graph">
+                        <rect id="Mask" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="384" height="240" rx="8"></rect>
+                        <path d="M8,0 L376,0 C380.418278,-8.11624501e-16 384,3.581722 384,8 L384,30 L0,30 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="Rectangle-1" fill="#EBF8FA" fill-rule="evenodd"></path>
+                        <circle id="Oval-1" fill="#AAB7B8" fill-rule="evenodd" cx="15" cy="15" r="5"></circle>
+                        <circle id="Oval-2" fill="#AAB7B8" fill-rule="evenodd" cx="29" cy="15" r="5"></circle>
+                        <circle id="Oval-3" fill="#AAB7B8" fill-rule="evenodd" cx="43" cy="15" r="5"></circle>
+                        <rect id="Rectangle-2" fill="#0099D9" fill-rule="evenodd" x="10" y="50" width="41" height="10" rx="2"></rect>
+                        <rect id="Rectangle-3" fill="#EAEDED" fill-rule="evenodd" x="107" y="185" width="71" height="5" rx="2"></rect>
+                        <rect id="Rectangle-4" fill="#EAEDED" fill-rule="evenodd" x="107" y="198" width="45" height="5" rx="2"></rect>
+                        <rect id="Rectangle-5" fill="#EAEDED" fill-rule="evenodd" x="107" y="211" width="62" height="5" rx="2"></rect>
+                        <rect id="Rectangle-6" fill="#EAEDED" fill-rule="evenodd" x="107" y="172" width="47" height="5" rx="2"></rect>
+                        <rect id="Rectangle-7" fill="#EAEDED" fill-rule="evenodd" x="204" y="172" width="67" height="5" rx="2"></rect>
+                        <rect id="Rectangle-8" fill="#EAEDED" fill-rule="evenodd" x="204" y="185" width="54" height="5" rx="2"></rect>
+                        <rect id="Rectangle-9" fill="#EAEDED" fill-rule="evenodd" x="204" y="198" width="67" height="5" rx="2"></rect>
+                        <rect id="Rectangle-10" fill="#EAEDED" fill-rule="evenodd" x="204" y="211" width="50" height="5" rx="2"></rect>
+                        <rect id="Rectangle-11" fill="#EAEDED" fill-rule="evenodd" x="301" y="172" width="36" height="5" rx="2"></rect>
+                        <rect id="Rectangle-12" fill="#EAEDED" fill-rule="evenodd" x="301" y="185" width="59" height="5" rx="2"></rect>
+                        <rect id="Rectangle-13" fill="#EAEDED" fill-rule="evenodd" x="301" y="198" width="50" height="5" rx="2"></rect>
+                        <rect id="Rectangle-14" fill="#EAEDED" fill-rule="evenodd" x="301" y="211" width="56" height="5" rx="2"></rect>
+                        <rect id="Rectangle-15" fill="#EAEDED" fill-rule="evenodd" opacity="0.501209077" x="107" y="72" width="267" height="92" rx="2"></rect>
+                        <rect id="Rectangle-16" fill="#6C7778" fill-rule="evenodd" opacity="0.150506882" x="289" y="96" width="62" height="5" rx="2"></rect>
+                        <rect id="Rectangle-17" fill="#6C7778" fill-rule="evenodd" opacity="0.150506882" x="289" y="109" width="62" height="5" rx="2"></rect>
+                        <rect id="Rectangle-18" fill="#6C7778" fill-rule="evenodd" opacity="0.150506882" x="289" y="122" width="65" height="5" rx="2"></rect>
+                        <rect id="Rectangle-19" fill="#6C7778" fill-rule="evenodd" opacity="0.150506882" x="289" y="135" width="44" height="5" rx="2"></rect>
+                        <rect id="Rectangle-20" fill="#EAEDED" fill-rule="evenodd" x="115" y="50" width="24" height="10" rx="2"></rect>
+                        <rect id="Rectangle-21" fill="#EAEDED" fill-rule="evenodd" x="55" y="50" width="56" height="10" rx="2"></rect>
+                        <rect id="Rectangle-22" stroke="#EAEDED" stroke-width="1" x="10.5" y="72.5" width="86" height="22" rx="2"></rect>
+                        <rect id="Rectangle-23" fill="#EAEDED" fill-rule="evenodd" x="15" y="82" width="44" height="8" rx="2"></rect>
+                        <rect id="Rectangle-24" fill="#EAEDED" fill-rule="evenodd" x="15" y="77" width="17" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-25" fill="#EAEDED" fill-rule="evenodd" x="15" y="106" width="17" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-26" fill="#EAEDED" fill-rule="evenodd" x="15" y="135" width="17" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-27" fill="#EAEDED" fill-rule="evenodd" x="15" y="164" width="17" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-28" fill="#EAEDED" fill-rule="evenodd" x="15" y="111" width="28" height="8" rx="2"></rect>
+                        <rect id="Rectangle-29" fill="#EAEDED" fill-rule="evenodd" x="15" y="140" width="22" height="8" rx="2"></rect>
+                        <rect id="Rectangle-30" stroke="#EAEDED" stroke-width="1" x="10.5" y="101.5" width="86" height="22" rx="2"></rect>
+                        <rect id="Rectangle-31" stroke="#EAEDED" stroke-width="1" x="10.5" y="130.5" width="86" height="22" rx="2"></rect>
+                        <rect id="Rectangle-32" stroke="#EAEDED" stroke-width="1" x="10.5" y="159.5" width="86" height="22" rx="2"></rect>
+                        <rect id="Rectangle-33" fill="#EAEDED" fill-rule="evenodd" x="143" y="50" width="62" height="10" rx="2"></rect>
+                        <rect id="Rectangle-34" fill="#EAEDED" fill-rule="evenodd" x="209" y="50" width="47" height="10" rx="2"></rect>
+                        <rect id="Rectangle-35" fill="#EAEDED" fill-rule="evenodd" x="260" y="50" width="31" height="10" rx="2"></rect>
+                        <g id="Graph" stroke-width="1" fill-rule="evenodd" transform="translate(192.500000, 115.500000) scale(-1, 1) translate(-192.500000, -115.500000) translate(115.000000, 97.000000)">
+                            <polyline id="Path-3" stroke="#0099D9" points="2 33.2631579 23.5714286 18.7894737 45.1428571 22.2631579 66.7142857 14.7368421 88.2857143 35 109.857143 26.3157895 131.428571 17.0526316 153 2"></polyline>
+                            <circle id="Oval" fill="#0099D9" cx="2" cy="33" r="2"></circle>
+                            <circle id="Oval-Copy-15" fill="#0099D9" cx="23" cy="19" r="2"></circle>
+                            <circle id="Oval-Copy-16" fill="#0099D9" cx="45" cy="22" r="2"></circle>
+                            <circle id="Oval-Copy-17" fill="#0099D9" cx="67" cy="15" r="2"></circle>
+                            <circle id="Oval-Copy-23" fill="#0099D9" cx="88" cy="35" r="2"></circle>
+                            <circle id="Oval-Copy-24" fill="#0099D9" cx="110" cy="26" r="2"></circle>
+                            <circle id="Oval-Copy-25" fill="#0099D9" cx="131" cy="17" r="2"></circle>
+                            <circle id="Oval-Copy-26" fill="#0099D9" cx="153" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

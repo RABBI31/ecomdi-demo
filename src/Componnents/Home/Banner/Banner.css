@@ -1,0 +1,266 @@
+.Banner{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+}
+
+.Banner_Image{
+    width: 100%;
+    height: 335px;
+    background: cover;
+    border-radius: 3px;
+    opacity: .85;
+    position: relative;
+}
+
+/* Sliders */
+.carousel{
+    width: 60%;
+}
+
+.First_Slide{
+    height: 335px;
+    width: 723px;
+    background: url(./5.jpeg);
+    border-radius: 3px;
+}
+
+.First_Slide_Text{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Slider_Titles{
+    font-size: 38px;
+    padding: 30px;
+    width: 50%;
+    color: white!important;
+    text-shadow: 0px 0px 5px rgba(255, 196, 0, 0.781);
+    padding-left: 40px;
+    opacity: .8;
+    margin-bottom: 0;
+}
+.Slider_Description{
+    font-size: 16px;
+    width: 50%;
+    color: white!important;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.Second_Slide{
+    height: 335px;
+    width: 723px;
+    background: url(./6.jpeg);
+    border-radius: 3px;
+}
+.Third_Slide{
+    width: 723px;
+    height: 335px;
+    background: url(./3.png);
+    border-radius: 3px;
+}
+
+.Fourth_Slide{
+    width: 723px;
+    height: 335px;
+    background: url(./4.jpg);
+    border-radius: 3px;
+}
+
+.Fifth_Slide{
+    width: 723px;
+    height: 335px;
+    background: url(./5.jpeg);
+    border-radius: 3px;
+}
+
+.Sixth_Slide{
+    width: 723px;
+    height: 335px;
+    background: url(./6.jpeg);
+    border-radius: 3px;
+}
+
+/* Left categories */
+.Categories_Left{
+    width: 20%;
+    margin-left: 10px;
+}
+
+.Banner_Categories_Images{
+    width: 28px;
+    height: 28px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.Banner_Categories_Items{
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-left: 2px solid rgb(2, 253, 107);
+}
+
+.Banner_Categories_Items:hover{
+    border-radius: 3px;
+    border-left: 2px solid rgb(253, 136, 2);
+}
+
+.Banner_Categories_Items p {
+    margin: 0;
+    padding: 5px 0px 3px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+.Banner_Categories_Items:hover p{
+    color: rgb(255, 117, 5);
+}
+
+/* ...Right side... */
+.Right_Side{
+    width: 20%;
+}
+/* Cards */
+.Banner_Right_Card1{
+    height: 75px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image: url(./apple.jpg);    
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+}
+.Banner_Right_Card2{
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image: url(./blender.jpg);    
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+}
+.Banner_Right_Card3{
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image: url(./bicks.jpg);    
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+}
+.Banner_Right_Card4{
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image: url(./books.jpg);    
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+}
+.Banner_Right_Cards_Text {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(255, 72, 0);
+    font-weight: bold;
+}
+.Banner_Right_Cards_Text2 {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(255, 72, 0);
+    font-weight: bold;
+}
+
+/* ...On mobile view... */
+.Mobile_Banner{
+    display: none;
+}
+.First_Slide1{
+    width: 100%;
+    height: 150px;
+    background: url(./1.5.png);
+    border-radius: 3px;
+}
+.Second_Slide2{
+    width: 100%;
+    height: 150px;
+    background: url(./2.5.jpg);
+    border-radius: 3px;
+}
+.Third_Slide3{
+    width: 100%;
+    height: 150px;
+    background: url(./3.5.png);
+    border-radius: 3px;
+}
+.Fourth_Slide4{
+    width: 100%;
+    height: 150px;
+    background: url(./4.5.jpg);
+    border-radius: 3px;
+}
+.Fifth_Slide5{
+    width: 100%;
+    height: 150px;
+    background: url(./5.5.jpeg);
+    border-radius: 3px;
+    background: cover;
+}
+.Sixth_Slide6{
+    width: 100%;
+    height: 150px;
+    background: url(./6.5.jpeg);
+    border-radius: 3px;
+}
+
+.Banner_Categories_Images2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.Banner_Categories_Items2{
+    cursor: pointer;
+}
+.Banner_Categories_Items2:hover{
+    border-radius: 3px;
+    color: white;
+    background: rgb(255, 136, 0);
+    box-shadow: 0px 0px 10px rgb(212, 212, 212);
+}
+.Banner_Categories_Items2:hover p{
+    color: white;
+}
+.Banner_Categories_Items2 p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-top: 5px;
+    text-align: center;
+}
+.slick-dots li button{
+    height: 10px!important;
+    width: 10px!important;
+    border-radius: 50%!important;
+}
+.slick-dots li button:hover{
+    box-shadow: 0px 0px 2px rgb(7, 7, 7)!important;
+}
+
+@media (max-width: 750px){
+    .Banner{
+        display: none;
+    }
+    .Mobile_Banner{
+        display: block;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}

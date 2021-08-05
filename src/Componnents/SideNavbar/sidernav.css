@@ -1,0 +1,11 @@
+.Tes{
+    width: 220px;
+}
+@media(max-width:600px){
+    .Tes{
+        width: 150px;
+    }
+    .loll{
+        margin-left: -220px;
+    }
+}
