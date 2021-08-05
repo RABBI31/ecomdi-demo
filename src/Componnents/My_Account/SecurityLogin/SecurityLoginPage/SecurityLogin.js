@@ -124,8 +124,13 @@ const SecurityLogin = () => {
                 </div>
             </section>
             {/* Back button */}
-            <Link to="/home">
-                <button className="Button2 ml-10 mb-10 shadow-lg">Back</button>
+            {/* Back button */}
+            <Link to="/main_page">
+                <div className='text-center mt-10'>
+                <button class="text-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                    Back
+                </button>
+                </div>
             </Link>
 
 

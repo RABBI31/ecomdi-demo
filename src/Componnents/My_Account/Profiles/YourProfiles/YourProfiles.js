@@ -16,7 +16,7 @@ const YourProfiles = () => {
                         <button className="AccountButton">Yusuf Islam</button>
                     </Link>
                     {/* Back button */}
-                    <Link to="/home">
+                    <Link to="/main_page">
                         <button className="Button2 ml ml-20 shadow">Back</button>
                     </Link>
                 </div>

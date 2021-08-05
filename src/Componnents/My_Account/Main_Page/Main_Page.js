@@ -116,7 +116,16 @@ const Main_Page = () => {
                         </div>
                     </div>
                 </section>
+                
             </div>
+             {/* Back button */}
+             <Link to="/">
+                <div className='text-center'>
+                <button class="text-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                    Back
+                </button>
+                </div>
+            </Link>
         </section>
     );
 };

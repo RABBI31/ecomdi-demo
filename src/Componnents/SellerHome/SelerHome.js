@@ -29,7 +29,7 @@ const SelerHome = () => {
                     </div>
                     {/* Seller Board */}
                     <div className='grid md:grid-cols-4 grid-cols-1 gap-5 mb-2'>
-                        <div className='h-20 shadow-md border border-gray-200 mr-2 bg-white'>
+                        <div className='h-20 shadow-md border border-gray-200 mr-2 bg-white shadow-md hover:shadow-lg'>
                             <div className='bg-red-100'>
                                 <div className='flex ml-5'>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-6 md:ml-5 ml-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,7 +45,7 @@ const SelerHome = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div className='h-20 shadow-md border border-gray-200 mr-2 bg-white'>
+                        <div className='h-20 shadow-md border border-gray-200 mr-2 bg-white shadow-md hover:shadow-lg'>
                             <div className='bg-gray-100 border'>
                                 <div className='flex ml-3 '>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-6 md:ml-4 ml-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -60,7 +60,7 @@ const SelerHome = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div className='h-20 shadow-md border border-gray-200 mr-2 bg-white'>
+                        <div className='h-20 shadow-md border border-gray-200 mr-2 bg-white shadow-md hover:shadow-lg'>
                             <div className='bg-gray-100 border'>
                                 <div className='flex ml-3'>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-6 md:ml-5 ml-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -75,7 +75,7 @@ const SelerHome = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div className='h-20 shadow-md border border-gray-200 mr-2 bg-white'>
+                        <div className='h-20 shadow-md border border-gray-200 mr-2 bg-white shadow-md hover:shadow-lg'>
                             <div className='bg-gray-100 border'>
                                 <div className='flex ml-3'>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-6 md:ml-5 ml-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -91,8 +91,8 @@ const SelerHome = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='grid md:grid-cols-4 grid-cols-1 gap-5'>
-                        <div className=' h-20 shadow-md border border-gray-200 mr-2 bg-white'>
+                    <div className='grid md:grid-cols-4 grid-cols-1 gap-5 mt-5'>
+                        <div className=' h-20 shadow-md border border-gray-200 mr-2 bg-white shadow-md hover:shadow-lg'>
                             <div className='bg-gray-100 border'>
                                 <div className='flex ml-3'>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -112,7 +112,7 @@ const SelerHome = () => {
                 </section>
                 {/* Performance and Operation stats */}
                 <div className='grid md:grid-cols-2 grid-cols-1 mt-10  gap-2 bg-white '>
-                    <div className='shadow-md border border-gray-200 rounded p-3'>
+                    <div className='shadow-md border border-gray-200 rounded p-3 shadow-md hover:shadow-lg'>
                         <h1>
                             Preformance
                         </h1>
@@ -194,7 +194,7 @@ const SelerHome = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='shadow-md border border-gray-200 rounded p-3 '>
+                    <div className='shadow-md border border-gray-200 rounded p-3 shadow-md hover:shadow-lg'>
                         <h1 className=''>
                             Operation
                         </h1>
@@ -338,7 +338,7 @@ const SelerHome = () => {
                 </div>
                 {/* Campaign Events Details */}
                 <div className='mt-5 shadow-md border border-gray-200 rounded p-3'>
-                    <div className='flex m justify-between'>
+                    <div className='flex text-lg justify-between'>
                         <h1>
                             Campaign Events
                         </h1>
@@ -348,7 +348,7 @@ const SelerHome = () => {
                         </svg>
                     </div>
                     <hr />
-                    <section className="grid md:grid-cols-3 grid-cols-1  mb-10 gap-3">
+                    <section className="grid md:grid-cols-3 grid-cols-1  mb-10 gap-3 ">
                         {
                             offerdata.map((e) => {
                                 return (
@@ -358,13 +358,13 @@ const SelerHome = () => {
                                             <Timer />
                                         </div>
                                         <div className="flex justify-center text-left ">
-                                            <div className="mb-3  ">
+                                            <div className="mb-3 bg-white shadow-md hover:shadow-lg ">
                                                 <img className="mb-2 " src={e.image} alt="" />
-                                                <p className=" font-bold text-lg text-left">{e.name}</p>
-                                                <p className="text-gray-400">{e.date}</p>
-                                                <p className="">{e.pricetag}</p>
-                                                <div className='flex justify-between'>
-                                                    <a href='' className='px-4 py-1 text-white bg-yellow-500 border  border-yello-500'>
+                                                <p className=" font-bold text-lg text-left px-3 ">{e.name}</p>
+                                                <p className="text-gray-400 px-3">{e.date}</p>
+                                                <p className="px-3">{e.pricetag}</p>
+                                                <div className='flex justify-between px-3'>
+                                                    <a href='' className='px-4 py-1 text-white bg-yellow-500 border mb-2  border-yello-500'>
                                                         Join
                                                     </a>
                                                     <p className='text-gray-400'>
@@ -381,7 +381,7 @@ const SelerHome = () => {
                 </div>
                 {/* Seller picks and chat history */}
                 <div className='grid md:grid-cols-3 grid-cols-1 mt-5 gap-5 shadow-md border border-gray-200 rounded p-3'>
-                    <div className='shadow-md border border-gray-200 rounded p-3'>
+                    <div className='shadow-md border border-gray-200 rounded p-3 bg-white shadow-md hover:shadow-lg'>
                         <div className='flex justify-between'>
                             <h1>
                                 Seller Picks
@@ -447,7 +447,7 @@ const SelerHome = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='shadow-md border border-gray-200 rounded p-3'>
+                    <div className='shadow-md border border-gray-200 rounded p-3 bg-white shadow-md hover:shadow-lg'>
                         <div className='flex m justify-between'>
                             <h1>
                                 Chat

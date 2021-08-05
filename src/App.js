@@ -75,6 +75,7 @@ const MediaCenter  =lazy(() => import('./Componnents/Products/Media Center/Media
 const AddProduct  =lazy(() => import( '../src/Componnents/Products/AddProduct/AddProduct'));
 const Manage  =lazy(() => import('../src/Componnents/Products/Manage Product/Manage' ));
 const SingleCategory  =lazy(() => import('./Componnents/Home/Categories/SingleCategory/SingleCategory' ));
+const Scrollup  =lazy(() => import( './Componnents/Home/ScrollUp/Scrollup'));
 function App() {
   return (
     <Router>
@@ -154,6 +155,7 @@ function App() {
         <Route exact path="/" component={Home_Page}/>
         </Switch>
         <Footer />
+        <Scrollup />
     </Suspense>
     </Router>
   );

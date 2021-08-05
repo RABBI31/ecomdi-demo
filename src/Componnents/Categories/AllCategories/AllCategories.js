@@ -7,9 +7,15 @@ import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 const AllCategories = () => {
     const [allProducts, setAllProducts] = useState([]);
+    const [searchTerm, setSearchTerm] = useState('')
     useEffect(() => {
         setAllProducts(AllProducts);
-    }, [])
+        setSearchTerm(sessionStorage.getItem('searchTerm'));
+        console.log(searchTerm);
+        const AllItem = AllProducts.filter(pd=>pd.name===searchTerm.charAt(0).toUpperCase() + searchTerm.slice(1)); 
+        console.log(AllItem)
+        AllItem.length>0&&setAllProducts(AllItem)
+    }, [searchTerm])
 //     const [searchTerm, setSearchTerm] = useState('')
 //     useEffect(()=>{
 //     setSearchTerm( sessionStorage.getItem('searchTerm'))
