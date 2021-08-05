@@ -147,39 +147,39 @@ const OrderView = () => {
                     </div>
                 </div>
                 {/* table product overview */}
-                <div class="container sm:mt-5">
-                    <table class="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5">
-                        <thead class="text-black">
-                            <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
-                                <th className="h-16 border p-1 ">Document</th>
-                                <th className="h-16 border p-1">Order no</th>
-                                <th className="h-16 border p-1">Order date</th>
-                                <th className="h-16 border p-1">Update date</th>
-                                <th className="h-16 border p-1">Payment Method</th>
-                                <th className="h-16 border p-1">Retail Price</th>
-                                <th className="h-16 border p-1"></th>
-                                <th className="h-16 border p-1">Status</th>
-                                <th className="h-16 border p-1">Printed</th>
-                                <th className="h-16 border p-1">Payout Amount</th>
-                                <th className="h-16 border p-1">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody className="flex-1 sm:flex-none w-full h-36 text-center">
-                            <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3"></td>
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <div class="container">
+                        <table class="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5 ml-3">
+                            <thead class="text-white">
+                                <tr class="bg-gray-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+                                    <th class="p-3 text-left">Document</th>
+                                    <th class="p-3 text-left">Order No</th>
+                                    <th class="p-3 text-left">Order Date</th>
+                                    <th class="p-3 text-left">Pending since</th>
+                                    <th class="p-3 text-left">Payment Method</th>
+                                    <th class="p-3 text-left">Retail Price</th>
+                                    <th class="p-3 text-left">Status</th>
+                                    <th class="p-3 text-left">Ship-On-time SLA</th>
+                                    <th class="p-3 text-left">Printed</th>
+                                    <th class="p-3 text-left" width="110px">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody class="flex-1 sm:flex-none">
+                                <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3">Demo</td>
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo@gmail</td>
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo</td>
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo</td>
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo </td>
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo </td>
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo </td>
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo </td>
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo </td>
+                                    <td class="border-grey-light border hover:bg-gray-100 p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">Delete</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
             </main>
         </div>
     )

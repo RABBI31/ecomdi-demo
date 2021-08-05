@@ -84,31 +84,28 @@ const Campaign = () => {
                             </div>
                         </div>
                     </nav>
-                    <div className="container sm:mt-5 mb-5">
-                        <table className="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5 mb-5">
-                            <thead className="text-black">
-                                <tr className="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-5">
-                                    <th className="h-16 border p-3  ">Campaign Banner</th>
-                                    <th className="h-16 border p-3">Campaign Name</th>
-                                    <th className="h-16 border p-3">Seller</th>
-                                    <th className="h-16 border p-3">Registration close in</th>
-                                    <th className="h-16 border p-3">Campaign Live Period</th>
-                                    <th className="h-16 border p-3">Action</th>
+                    <div className="container">
+                        <table className="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5 ml-3">
+                            <thead className="text-white">
+                                <tr className="bg-gray-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+                                    <th className="p-3 text-left">Campaign Banner</th>
+                                    <th className="p-3 text-left">Campaign Name</th>
+                                    <th className="p-3 text-left">Sellers</th>
+                                    <th className="p-3 text-left">Registration Close In</th>
+                                    <th className="p-3 text-left">Campaign Live Period</th>
+                                    <th className="p-3 text-left" width="110px">Actions</th>
                                 </tr>
                             </thead>
-                            <tbody className="flex-1 sm:flex-none w-full h-36 text-center mb-5">
+                            <tbody className="flex-1 sm:flex-none">
                                 <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
-                                    <td className="h-16 border-grey-light border hover:bg-gray-100 p-3">Weekly Free Shipping Campaign 1st - 14th Aug</td>
-                                    <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 ">Weekly Free Shipping Campaign 1st - 14th Aug</td>
-                                    <td className=" h-16 border-grey-light border hover:bg-gray-100 p-3 ">{Timer} Weekly Free Shipping Campaign 1st - 14th Aug</td>
-                                    <td className=" h-16 border-grey-light border hover:bg-gray-100 p-3 ">
-                                        Start at 01 Aug 2021 00:00 GMT+06:00
-                                        <div>
-                                            End at 14 Aug 2021 23:59 GMT+06:00
-                                        </div>
-                                    </td>
-                                    <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 ">Weekly Free Shipping Campaign 1st - 14th Aug</td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3">Demo</td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo@gmail</td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo</td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo</td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo </td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">Join</td>
                                 </tr>
+                                
                             </tbody>
                         </table>
                     </div>

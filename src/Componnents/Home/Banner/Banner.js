@@ -129,19 +129,19 @@ const Banner = () => {
 
                 {/* ...Right side offers start... */}
                 <div className="Right_Side p-3 pt-0 pb-0 pl-5">
-                    <div className="Banner_Right_Card1">
+                    <div className="Banner_Right_Card1 hover:shadow-xl">
                         <p className="Banner_Right_Cards_Text">Groceries</p>
                         <p className="Banner_Right_Cards_Text2">40% off</p>
                     </div>
-                    <div className="Banner_Right_Card2">
+                    <div className="Banner_Right_Card2 hover:shadow-xl">
                         <p className="Banner_Right_Cards_Text">Home applience</p>
                         <p className="Banner_Right_Cards_Text2">35% off</p>
                     </div>
-                    <div className="Banner_Right_Card3">
-                        <p className="Banner_Right_Cards_Text">Bicks</p>
+                    <div className="Banner_Right_Card3 hover:shadow-xl">
+                        <p className="Banner_Right_Cards_Text ">Bicks</p>
                         <p className="Banner_Right_Cards_Text2">Flat 40% off</p>
                     </div>
-                    <div className="Banner_Right_Card4">
+                    <div className="Banner_Right_Card4 hover:shadow-xl">
                         <p className="Banner_Right_Cards_Text">Books</p>
                         <p className="Banner_Right_Cards_Text2">40% off</p>
                     </div>

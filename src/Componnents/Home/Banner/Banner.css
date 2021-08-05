@@ -22,7 +22,8 @@
 .First_Slide{
     height: 335px;
     width: 723px;
-    background: url(./5.jpeg);
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./5.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./5.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 
@@ -54,34 +55,39 @@
 .Second_Slide{
     height: 335px;
     width: 723px;
-    background: url(./6.jpeg);
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./6.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./6.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 .Third_Slide{
     width: 723px;
     height: 335px;
-    background: url(./3.png);
+    background: linear-gradient(rgba(72, 0, 72, 0.575), rgb(192,72,72,0.8)),  url(./3.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./3.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 
 .Fourth_Slide{
     width: 723px;
     height: 335px;
-    background: url(./4.jpg);
+    background: linear-gradient(rgb(72,0,72,0.7), rgb(192,72,72,0.7)),  url(./4.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(72,0,72,0.7), rgba(78, 55, 55, 0.7)),  url(./4.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 
 .Fifth_Slide{
     width: 723px;
     height: 335px;
-    background: url(./5.jpeg);
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./5.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./5.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 
 .Sixth_Slide{
     width: 723px;
     height: 335px;
-    background: url(./6.jpeg);
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./6.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./6.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 
@@ -133,7 +139,7 @@
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    background-image: url(./apple.jpg);    
+    background: linear-gradient(rgb(255,255,255,0.7), rgb(55,72,72,0.7)),  url(./apple.jpg);  /* Chrome 10-25, Safari 5.1-6 */
     box-shadow: 0px 0px 10px rgb(161, 161, 161);
 }
 .Banner_Right_Card2{
@@ -142,7 +148,7 @@
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    background-image: url(./blender.jpg);    
+    background: linear-gradient(rgb(255,255,255,0.7), rgb(55,72,72,0.7)),  url(./blender.jpg);  /* Chrome 10-25, Safari 5.1-6 */
     box-shadow: 0px 0px 10px rgb(161, 161, 161);
 }
 .Banner_Right_Card3{
@@ -151,7 +157,7 @@
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    background-image: url(./bicks.jpg);    
+    background: linear-gradient(rgb(255,255,255,0.7), rgb(55,72,72,0.7)),url(./bicks.jpg);    
     box-shadow: 0px 0px 10px rgb(161, 161, 161);
 }
 .Banner_Right_Card4{
@@ -160,13 +166,13 @@
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    background-image: url(./books.jpg);    
+    background: linear-gradient(rgb(255,255,255,0.7), rgb(55,72,72,0.7)), url(./books.jpg);    
     box-shadow: 0px 0px 10px rgb(161, 161, 161);
 }
 .Banner_Right_Cards_Text {
     margin: 0;
     font-size: 18px;
-    color: rgb(255, 72, 0);
+    color: black;
     font-weight: bold;
 }
 .Banner_Right_Cards_Text2 {

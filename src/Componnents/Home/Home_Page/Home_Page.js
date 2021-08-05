@@ -5,7 +5,7 @@ import Scrollup from '../ScrollUp/Scrollup'
 
 const Home_Page = () => {
     return (
-        <div className="BG3_2 home">
+        <div className="BG3_2 home ">
             <Banner />
             <Products />
             {/* <Scrollup />  */}

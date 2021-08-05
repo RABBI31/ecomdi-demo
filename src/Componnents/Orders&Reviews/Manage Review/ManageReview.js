@@ -1,4 +1,5 @@
 import React from 'react'
+import './ManageReview.css'
 import Sidenav from '../../SideNavbar/Sidenav'
 import { DatePicker, Space, Input } from 'antd';
 const { Search } = Input;
@@ -41,13 +42,13 @@ const ManageReview = () => {
                 </div>
                 {/* product and seller review navbar */}
                 <div className='bg-white'>
-                    <nav class="flex items-center justify-between flex-wrap bg-teal-500 md:text-left text-center p-6">
-                        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                            <div class="text-sm lg:flex-grow">
-                                <a href="#" class="block p-1 mt-4 lg:inline-block lg:mt-0 text-yellow-500 hover:text-yellow-500  border-b-2  border-yellow-500 p-1 mr-4">
+                    <nav className="flex items-center justify-between flex-wrap bg-teal-500 md:text-left text-center p-6">
+                        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                            <div className="text-sm lg:flex-grow">
+                                <a href="#" className="block p-1 mt-4 lg:inline-block lg:mt-0 text-yellow-500 hover:text-yellow-500  border-b-2  border-yellow-500 p-1 mr-4">
                                     Product Reviews
                                 </a>
-                                <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 p-1 border-b-2 ">
+                                <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 p-1 border-b-2 ">
                                     Seller Review
                                 </a>
                             </div>
@@ -55,19 +56,19 @@ const ManageReview = () => {
                     </nav>
                     {/* Review and their image rations navbar */}
                     <div>
-                        <nav class="flex items-center justify-between flex-wrap bg-teal-500 md:text-left text-center p-6">
-                            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                                <div class="text-sm lg:flex-grow">
-                                    <a href="#" class="block p-1 mt-4 lg:inline-block lg:mt-0 text-white hover:text-white px-2  border rounded-full bg-yellow-500  border-yellow-500 p-1 mr-4">
+                        <nav className="flex items-center justify-between flex-wrap bg-teal-500 md:text-left text-center p-6">
+                            <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                                <div className="text-sm lg:flex-grow">
+                                    <a href="#" className="block p-1 mt-4 lg:inline-block lg:mt-0 text-white hover:text-white px-2  border rounded-full bg-yellow-500  border-yellow-500 p-1 mr-4">
                                         All Reviews
                                     </a>
-                                    <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-yellow-500 px-2  border rounded-full bg-gray-100 p-1 border-b-2 mr-4 ">
+                                    <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-yellow-500 px-2  border rounded-full bg-gray-100 p-1 border-b-2 mr-4 ">
                                         With image/videos
                                     </a>
-                                    <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-yellow-500 px-2  border rounded-full bg-gray-100 p-1 mr-4 ">
+                                    <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-yellow-500 px-2  border rounded-full bg-gray-100 p-1 mr-4 ">
                                         With text
                                     </a>
-                                    <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-yellow-500 px-2  border rounded-full bg-gray-100 p-1 hover:border-l-8 mr-4 ">
+                                    <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-yellow-500 px-2  border rounded-full bg-gray-100 p-1 hover:border-l-8 mr-4 ">
                                         Lower than 4 stars
                                     </a>
                                 </div>
@@ -125,27 +126,28 @@ const ManageReview = () => {
                             </button>
                         </div>
                     </div>
-                    <div class="container sm:mt-5">
-                        <table class="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5">
-                            <thead class="text-black">
-                                <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
-                                    <th className="h-16 border p-1 ">Order</th>
-                                    <th className="h-16 border p-1">Content</th>
-                                    <th className="h-16 border p-1">Product</th>
-                                    <th className="h-16 border p-1">Rating</th>
-                                    <th className="h-16 border p-1">Status</th>
-                                    <th className="h-16 border p-1">Action</th>
+                    <div className="container">
+                        <table className="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5 ml-3">
+                            <thead className="text-white">
+                                <tr className="bg-gray-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+                                    <th className="p-3 text-left">Order</th>
+                                    <th className="p-3 text-left">Content</th>
+                                    <th className="p-3 text-left">Product</th>
+                                    <th className="p-3 text-left">Ratings</th>
+                                    <th className="p-3 text-left">Status</th>
+                                    <th className="p-3 text-left" width="110px">Actions</th>
                                 </tr>
                             </thead>
-                            <tbody className="flex-1 sm:flex-none w-full h-36 text-center">
+                            <tbody className="flex-1 sm:flex-none">
                                 <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
-                                    <td className="h-16 border-grey-light border hover:bg-gray-100 p-3"></td>
-                                    <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                    <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                    <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                    <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
-                                    <td className="h-16 border-grey-light border hover:bg-gray-100 p-3 "></td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3">Demo</td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo@gmail</td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo</td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo</td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 truncate">Demo </td>
+                                    <td className="border-grey-light border hover:bg-gray-100 p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">Delete</td>
                                 </tr>
+                                
                             </tbody>
                         </table>
                     </div>

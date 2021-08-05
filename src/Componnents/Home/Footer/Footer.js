@@ -1,34 +1,35 @@
 import React from 'react';
 import './Footer.css';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Aboutecomdi from '../../AboutEcomdi/Aboutecomdi'
 
 
 const Footer = () => {
     return (
-            <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Roboto pb-10 pt-10 mt-16 Footer">
+        <div>
+            <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-800 Roboto pb-10 pt-10 mt-16 Footer">
                 <div className="text-sm m-10 leading-5">
                     <a href="" className="text-xl text-gray-300"><p><b>Get to Know Us</b></p></a>
                     <Link to="/career">
-                    <a href=""><p className="text-gray-400">Careers</p></a>
+                        <a href=""><p className="text-gray-400">Careers</p></a>
                     </Link>
                     <a href=""><p className="text-gray-400">Blogs</p></a>
-                  
+
                     <Link to='/about-ecomdi' >
-                       <p className="text-gray-400">About Ecomdi</p> 
+                        <p className="text-gray-400">About Ecomdi</p>
                     </Link>
-                 
+
                     <a href=""><p className="text-gray-400">Sustainability</p></a>
                     <a href=""><p className="text-gray-400">Press Center</p></a>
                     <Link to='/investor-relation' >
-                       <p className="text-gray-400">Investor Relation</p> 
+                        <p className="text-gray-400">Investor Relation</p>
                     </Link>
                     <a href=""><p className="text-gray-400">Ecomdi Devices</p></a>
                 </div>
                 <div className="text-white text-sm m-10 leading-5 text-gray-300">
                     <a href="" className="text-xl text-gray-300"><p><b>Make Money with Us</b></p></a>
                     <Link to='/sell-on-product' >
-                       <p className="text-gray-400">Sell On Product</p> 
+                        <p className="text-gray-400">Sell On Product</p>
                     </Link>
                     <a href=""><p className="text-gray-400">Sell apps on Ecomdi</p></a>
                     <a href=""><p className="text-gray-400">Become an Affiliate</p></a>
@@ -61,9 +62,21 @@ const Footer = () => {
                     <a href=""><p className="text-gray-400">Manage Your Content and Devices</p></a>
                     <a href=""><p className="text-gray-400">Help</p></a>
                 </div>
-                
+
+
             </section>
-         
+            <div className='text-center bg-gray-900 p-5'>
+                <div className="rounded-social-buttons items-center">
+                    <a className="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a className="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a className="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a className="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a className="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+
     );
 };
 

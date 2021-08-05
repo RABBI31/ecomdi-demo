@@ -59,7 +59,7 @@ const Products = () => {
 
     return (
         <div className="ml-10 mb-5 mr-5">
-            <p className="grid font-bold text-2xl test mt-5">Mobile</p>
+            <p className="grid font-bold text-2xl  text-gray-800 mt-5">Mobile</p>
             <section style={{ overflowX: "scroll" }} className="flex Scroll mr-5">
                 {
                     mobiles.map((e) => {
@@ -82,7 +82,7 @@ const Products = () => {
                 }
             </section>
 
-            <p className="grid font-bold text-2xl test mt-5">Groceries</p>
+            <p className="grid font-bold text-2xl text-gray-800 mt-5">Groceries</p>
             <section style={{ overflowX: "scroll" }} className="flex Scroll mr-5">
                 {
                     groceries.map((e) => {
@@ -104,7 +104,7 @@ const Products = () => {
                 }
             </section>
 
-            <p className="grid font-bold text-2xl test mt-5">Laptop</p>
+            <p className="grid font-bold text-2xl text-gray-800 mt-5">Laptop</p>
             <section style={{ overflowX: "scroll" }} className="flex Scroll mr-5">
                 {
                     laptops.map((e) => {
@@ -126,7 +126,7 @@ const Products = () => {
                 }
             </section>
 
-            <p className="grid font-bold text-2xl ml-5 test mt-5">Bick & Scooter</p>
+            <p className="grid font-bold text-2xl ml-5 text-gray-800 mt-5">Bick & Scooter</p>
             <section style={{ overflowX: "scroll" }} className="flex Scroll mr-5">
                 {
                     bicks.map((e) => {

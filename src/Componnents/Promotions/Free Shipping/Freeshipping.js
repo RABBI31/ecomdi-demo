@@ -84,7 +84,7 @@ const Freeshipping = () => {
                 <div class="container sm:mt-5">
                     <table class="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5">
                         <thead class="text-black">
-                            <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+                            <tr class="bg-gray-400 text-white flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
                                 <th className="h-16 border p-1 ">Promotion Name</th>
                                 <th className="h-16 border p-1">Budget</th>
                                 <th className="h-16 border p-1">Period</th>
