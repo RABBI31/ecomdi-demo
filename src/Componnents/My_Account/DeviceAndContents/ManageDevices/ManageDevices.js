@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ManageDevices.css'
-import Timerma from './option/Countdown/Timerma'
+import Timerma from '../../Voucher/Vouchers/option/Countdown/Timerma'
 import Preloader from './option/Preloader/Preloader';
 import Optin from './option/Optin/Optin';
 const ManageDevices = () => {
@@ -15,17 +15,18 @@ const ManageDevices = () => {
                         <br />
                         Coming Soon
                     </h1>
-                    <Timerma />
-                    {/* <Optin /> */}
-                    {/* <Preloader /> */}
+                    <div className='container'>
+                      <Timerma />
+                    </div>
+                    
                 </div>
             </h1>
             {/* Back button */}
-            <Link to="/devices">
+            <Link to="/main_page">
                 <div className='text-center'>
                     <button class="text-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         Back
-                    </button>
+                    </button> 
                 </div>
             </Link>
         </section>

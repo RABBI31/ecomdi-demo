@@ -53,27 +53,31 @@ class CountDown extends Component {
     return (
       <div id="countdown">
         <div className="col-4">
-          <div className="box">
-            <p id="day">{days}</p>
-            <span className="text">Days</span>
+        <div className="ml-3"> 
+            <p className='text-2xl font-bold  mb-3' id="day">{days}</p>
+            <p className='text-sm'>Days</p>
+            {/* <span className="text text-black">Days</span> */}
           </div>
         </div>
         <div className="col-4">
-          <div className="box">
-            <p id="hour">{hours}</p>
-            <span className="text">Hours</span>
+        <div className="ml-3"> 
+            <p className='text-2xl font-bold  mb-3' id="hour">{hours}</p>
+            <p className='text-sm'>Hours</p>
+            {/* <span className="text">Hours</span> */}
           </div>
         </div>
         <div className="col-4">
-          <div className="box">
-            <p id="minute">{minutes}</p>
-            <span className="text">Minutes</span>
+        <div className="ml-3"> 
+            <p className='text-2xl font-bold  mb-3' id="minute">{minutes}</p>
+            <p className='text-sm'>Minutes</p>
+            {/* <span className="text">Minutes</span> */}
           </div>
         </div>
         <div className="col-4">
-          <div className="box">
-            <p id="second">{seconds}</p>
-            <span className="text">Seconds</span>
+          <div className="ml-3">
+            <p className='text-2xl font-bold  mb-3' id="second">{seconds}</p>
+            <p className='text-sm'>seconds</p>
+            {/* <span className="text text-black">Seconds</span> */}
           </div>
         </div>
       </div>

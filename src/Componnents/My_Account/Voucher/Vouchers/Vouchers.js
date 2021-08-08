@@ -14,9 +14,10 @@ const Vouchers = () => {
                         <br />
                         Coming Soon
                     </h1>
-                    <Timerma />
-                    {/* <Optin /> */}
-                    {/* <Preloader /> */}
+                    <div className='container'>
+                      <Timerma />
+                    </div>
+                    
                 </div>
             </h1>
             {/* Back button */}

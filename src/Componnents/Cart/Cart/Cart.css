@@ -1,10 +1,5 @@
 .Cart_Delete{
-    margin-top: 5px;
-    height: 20px;
-    color: blanchedalmond;
-    background-color: #272727d5;
-    padding: 2.5px 5px 1px 5px;
-    font-size: 10px;
+    margin-top: 10px;
     border-radius: 3px;
 }
 .Cart_Delete:hover{
@@ -42,10 +37,8 @@
     margin-top: 5px;
     width: 100%;
     margin-top: 20px;
-    font-weight: bold;
-    font-size: 16px;
-    color: rgb(255, 248, 239);
-    background-color: #272727e8;
+    font-size: 20px;
+    color: white ;
     padding: 2px 5px 3px 5px;
     border-radius: 3px;
 }

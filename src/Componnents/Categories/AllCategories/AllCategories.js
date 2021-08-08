@@ -26,7 +26,7 @@ const AllCategories = () => {
 //     })
     return (
         <section className="flex">
-            <div className="text-center ml-5 mr-2 mt-0">
+            <div className="text-center ml-5 mr-2 mt-0 sticky">
                 <CategoriesNavigation />
             </div>
             <div className="container">

@@ -16,13 +16,13 @@ const Devices = () => {
                     <p className="font-bold text-xl text-center mt-5"><u>Things you can do</u></p>
                     <section className="grid md:grid-cols-2 mt-5 text-center">
                         <Link to="/yourOrders">
-                            <div className="pt-5 pb-5 border-t rounded border-r Devices__Hover">View or cancel your digital orders</div>
+                            <div className="pt-5 pb-5 border-t rounded border-r Devices__Hover text-black">View or cancel your digital orders</div>
                         </Link>
                         <Link to="/manageDevices">
-                            <div className="pt-5 pb-5 border-b rounded border-t Devices__Hover">Manage devices</div>
+                            <div className="pt-5 pb-5 border-b rounded border-t Devices__Hover text-black">Manage devices</div>
                         </Link>
                         <a href="https://www.facebook.com/cdiltd" target="_blank">
-                            <div className="pt-5 pb-5 border-t border-r rounded Devices__Hover">Ask the <b>ecomdi</b> community</div>
+                            <div className="pt-5 pb-5 border-t border-r rounded Devices__Hover text-black">Ask the <b>Ecomdi</b> community</div>
                         </a>
                         <div className="pt-5 pb-5 border-t rounded Devices__Hover">Change your digital and device settings</div>
                     </section>
@@ -45,23 +45,23 @@ const Devices = () => {
             <section className="flex border-b-2 pb-20 mb-10 text-center">
                 <div className="flex-1"></div>
                 <div className="flex-auto">
-                    <h1 className="text-center font-bold text-xl">Additional Resources</h1> <br />
+                    <h1 className="text-center font-bold text-2xl">Additional Resources</h1> <br />
                     <section className="grid md:grid-cols-2">
-                        <div className="mt-5">
+                        <div className="mt-5 bg-gray-50 p-5 hover:shadow-md mr-5">
                             <div className="flex justify-center mb-5">
                                 <img src={Image1} alt="" className="Images" />
                             </div>
                             <h1 className="font-bold text-lg mb-2">Ask the ecomdi Community</h1>
                             <p>Get answers from other Ecomdi customers on the Digital and Device Forum.</p>
-                            <a href="https://www.facebook.com/cdiltd" target="_blank" className="text-blue-600 font-bold">Our page</a>
+                            <a href="https://www.facebook.com/cdiltd" target="_blank" className="font-bold bg-gray-800 text-white px-3 py-1 mt-2">Our page</a>
                         </div>
-                        <div className="mt-5">
+                        <div className="mt-5 bg-gray-50 p-5 hover:shadow-md">
                         <div className="flex justify-center mb-5">
                                 <img src={Image2} alt="" className="Images" />
                             </div>
                             <h1 className="font-bold text-lg mb-2">Start a Chat Now</h1>
                             <p>The bot quickly fixes your problem or connects you to someone who can.</p>
-                            <a href="https://www.facebook.com/cdiltd" target="_blank" className="text-blue-600 font-bold">Contact us</a>
+                            <a href="https://www.facebook.com/cdiltd" target="_blank" className=" font-bold bg-gray-800 text-white px-3 py-1 mt-2">Contact us</a>
                         </div>
                     </section>
                 </div>
@@ -69,10 +69,10 @@ const Devices = () => {
             </section>
 
             {/* Back button */}
-            <section className="flex">
-                <div className="flex-auto">
+            <section className="">
+                <div className=" text-center">
                     <Link to="/home">
-                        <button className="Button2 mb-14 ml-10">Back</button>
+                        <button className="Button2 mb-14 ml-10 text-black">Back</button>
                     </Link>
                 </div>
                 <div className="flex-1"></div>

@@ -19,16 +19,16 @@ const Cart = () => {
         setCount(newCounts);
     }
     return (
-        <div className="bg-blue-50">
+        <div className="bg-gray-100 ml-5 mr-3">
             <section className="flex pt-3 mb-10 ml-3 mr-3 Roboto">
                 <div className="flex gap-4 grid grid-cols-2">
 
                     {/* Products and Details */}
                     <div className="-mr-20 border-r-2">
-                        <div className="grid md:grid-cols-2 gap-4 pb-5 border-b-2 mr-3">
+                        <div className="grid md:grid-cols-2 gap-4 p-5 border-b-2 mr-3 bg-white hover:shadow-md mb-5">
                             {/* Image */}
-                            <div className="flex justify-center">
-                                <img className="w-full h-full" src={Image} alt="" />
+                            <div className="flex justify-center ">
+                                <img className="w-full h-full rounded" src={Image} alt="" />
                             </div>
                             {/* Details */}
                             <div>
@@ -48,13 +48,13 @@ const Cart = () => {
                                 </div>
                                 {/* Buttons */}
                                 <div className="grid grid-cols-3 gap-4">
-                                    <button className="Cart_Delete">Delete</button>
-                                    <button className="Cart_Delete">Save for later</button>
+                                    <button className="Cart_Delete bg-gray-800 text-white text-sm h-8">Delete</button>
+                                    <button className="Cart_Delete bg-gray-800 text-white text-sm h-8 px-2 ">Add to Cart</button>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="grid md:grid-cols-2 gap-4 pb-5 pt-5 border-b-2 mr-3">
+                        <div className="grid md:grid-cols-2 gap-4 p-5 border-b-2 mr-3 bg-white hover:shadow-md mb-5">
                             {/* Image */}
                             <div className="flex justify-center">
                                 <img className="w-full h-full" src={Image} alt="" />
@@ -77,13 +77,13 @@ const Cart = () => {
                                 </div>
                                 {/* Buttons */}
                                 <div className="grid grid-cols-3 gap-4">
-                                    <button className="Cart_Delete">Delete</button>
-                                    <button className="Cart_Delete">Save for later</button>
+                                    <button className="Cart_Delete bg-gray-800 text-white text-sm h-8">Delete</button>
+                                    <button className="Cart_Delete bg-gray-800 text-white text-sm h-8 px-2 ">Add to Cart</button>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="grid md:grid-cols-2 gap-4 pb-5 pt-5 mr-3">
+                        <div className="grid md:grid-cols-2 gap-4 p-5 border-b-2 mr-3 bg-white hover:shadow-md mb-5">
                             {/* Image */}
                             <div className="flex justify-center">
                                 <img className="w-full h-full" src={Image} alt="" />
@@ -106,15 +106,15 @@ const Cart = () => {
                                 </div>
                                 {/* Buttons */}
                                 <div className="grid grid-cols-3 gap-4">
-                                    <button className="Cart_Delete">Delete</button>
-                                    <button className="Cart_Delete">Save for later</button>
+                                    <button className="Cart_Delete bg-gray-800 text-white text-sm h-8">Delete</button>
+                                    <button className="Cart_Delete bg-gray-800 text-white text-sm h-8 px-2 ">Add to Cart</button>
                                 </div>
                             </div>
                         </div>
 
                     </div>
                     {/* Cart */}
-                    <div className="ml-20 Cart_Checkouts border-t-2">
+                    <div className="ml-20 Cart_Checkouts border-t-2 bg-white">
                         <div className="text-center mt-5 ml-3">
                             <p className="Cart_Subtotal m-0 mb-2">Subtotal: $450</p>
                             <p className="Cart_Quantity">Quantity: 3</p>
@@ -123,7 +123,7 @@ const Cart = () => {
                         </div>
                         <Link to="/checkout">
                             <div className="flex justify-center ml-5">
-                                <button className="Cart_Checkout">Checkout</button>
+                                <button className="Cart_Checkout md:ml-10 md:mr-10 bg-gray-800">Checkout</button>
                             </div>
                         </Link>
                     </div>
