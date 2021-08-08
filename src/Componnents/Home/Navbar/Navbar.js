@@ -26,7 +26,7 @@ const Navbar = () => {
     
     return (
         <div>
-            <section className="pb-1 pt-1 Main_Navbar">
+            <section className="pb-1 pt-1 Main_Navbar mb-3">
                 <section className="grid flex grid-cols-3 justify-items-center">
                     {/* Company Name/Logo */}
                     <section className="flex justify-items-center ImageSection">
@@ -69,7 +69,7 @@ const Navbar = () => {
                     </section>
                 </section>
             </section>
-            <Categories />
+            <Categories className='mt-5' />
         </div>
     );
 };

@@ -12,7 +12,8 @@ const AllCategories = () => {
         setAllProducts(AllProducts);
         setSearchTerm(sessionStorage.getItem('searchTerm'));
         console.log(searchTerm);
-        const AllItem = AllProducts.filter(pd=>pd.name===searchTerm.charAt(0).toUpperCase() + searchTerm.slice(1)); 
+        // const AllItem = AllProducts.filter(pd=>pd.name===searchTerm.charAt(0).toUpperCase() + searchTerm.slice(1)); 
+        const AllItem = AllProducts.filter(pd=>pd.name===searchTerm.toUpperCase(1) + searchTerm.slice(1)); 
         console.log(AllItem)
         AllItem.length>0&&setAllProducts(AllItem)
     }, [searchTerm])

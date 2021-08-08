@@ -33,7 +33,8 @@
 }
 .Navbar_Search_Button{
     padding: 3px 10px 3px 10px;
-    background-color: rgb(0, 255, 128);
+    /* background-color: rgb(0, 255, 128); */
+    background-color: rgb(179,217,101);
     color: black;
     border: none;
     font-size: 14px;
@@ -55,7 +56,7 @@
 .Navbar__Icons{
     margin-top: 5px;
     font-size: 36px;
-    color: rgb(0, 255, 128);
+    color: rgb(179,217,101);
     margin-top: -5px;
     transition: all 0.2s ease-in-out;
 }
@@ -64,7 +65,8 @@
     border-top: 3px solid yellow;
 }
 .Navbar__Cart__Count{
-    background-color: rgb(102, 255, 0);
+    /* background-color: rgb(102, 255, 0); */
+    background-color: rgb(179,217,101);
     color: black;
     width: 15px;
     font-weight: bold;
@@ -78,8 +80,8 @@
     padding: 2px 10px 2px 10px;
     font-size: 14px;
     font-weight: bold;
-    background-color: rgb(0, 255, 128);
-    border: 1px solid green;
+    background-color: rgb(179,217,101);
+    /* border: 1px solid green; */
     outline: none!important;
     border-radius: 5px;
     transition: all .2s ease-in-out;

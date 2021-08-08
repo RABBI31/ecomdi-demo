@@ -9,19 +9,19 @@ import './Categories.css';
 
 
 const menu = (
-    
-    <Menu>
+    <div className='mt-5'>
+    <Menu className=''>
        
         <Menu.Item>
             <Link to="/category/Electronics_Devices">
-                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items  ">
                     <FontAwesomeIcon icon={faThList} /> Electronics Devices
                 </a>
             </Link>
         </Menu.Item>
         <Menu.Item>
             <Link to="/category/Mobile">
-                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items ">
                     <FontAwesomeIcon icon={faMobileAlt} className="" /> Mobile
                 </a>
             </Link>
@@ -90,6 +90,7 @@ const menu = (
             </Link>
         </Menu.Item>
     </Menu>
+    </div>
 );
 
 const Categories = () => {
@@ -97,20 +98,20 @@ const Categories = () => {
     return (
         <section className="mt-1 mb-1 -ml-5 mb-10">
             <div className="grid md:grid-cols-7 Categories grid-cols-1 Font2 text-center pl-10 pr-10 gap-2">
-                <div className="flex justify-center">
-                    <Dropdown overlay={menu} placement="bottomRight" arrow>
+                <div className="flex justify-center ">
+                    <Dropdown overlay={menu} placement="bottomRight" arrow className=''>
                         <Link to="/categories">
-                            <button className="All_Categories pb-1"><FontAwesomeIcon icon={faThList} /> All Categories</button>
+                            <button className="All_Categories py-1 pl-3 pr-3   "><FontAwesomeIcon icon={faThList} /> All Categories</button>
                         </Link>
                     </Dropdown>
                 </div>
-                <button className="Categories_Button">Mobile</button>
-                <button className="Categories_Button">Laptop</button>
-                <button className="Categories_Button">Bick & Scooter</button>
-                <button className="Categories_Button">Groceries</button>
-                <button className="Categories_Button">Television</button>
+                <button className="Categories_Button py-3 px-2">Mobile</button>
+                <button className="Categories_Button py-3">Laptop</button>
+                <button className="Categories_Button py-3">Bick & Scooter</button>
+                <button className="Categories_Button py-3">Groceries</button>
+                <button className="Categories_Button py-3">Television</button>
                 <Link to="/switchToSellerPage">
-                    <button className="Categories_Button Roboto text-2xl Sell"><b>Sell</b></button>
+                    <button className="Categories_Button Roboto text-2xl Sell py-3"><b>Sell</b></button>
                 </Link>
             </div>
         </section>

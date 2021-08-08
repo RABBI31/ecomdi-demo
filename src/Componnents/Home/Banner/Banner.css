@@ -22,8 +22,8 @@
 .First_Slide{
     height: 335px;
     width: 723px;
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./5.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./5.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to rgb(131, 98, 131, 0.9), rgba(192, 72, 72, 0.233)),  url(./5.jpeg);  Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( rgb(131, 98, 131, 0.9), rgba(192, 72, 72, 0.233)),  url(./5.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 
@@ -39,7 +39,7 @@
     padding: 30px;
     width: 50%;
     color: white!important;
-    text-shadow: 0px 0px 5px rgba(255, 196, 0, 0.781);
+    /* text-shadow: 0px 0px 5px rgba(255, 196, 0, 0.781); */
     padding-left: 40px;
     opacity: .8;
     margin-bottom: 0;
@@ -55,15 +55,15 @@
 .Second_Slide{
     height: 335px;
     width: 723px;
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./6.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./6.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(rgb(131, 98, 131, 0.9), rgba(192, 72, 72, 0.233)),  url(./6.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(131, 98, 131, 0.9), rgba(192, 72, 72, 0.233)),  url(./6.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 .Third_Slide{
     width: 723px;
     height: 335px;
-    background: linear-gradient(rgba(72, 0, 72, 0.575), rgb(192,72,72,0.8)),  url(./3.png);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./3.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(rgb(72,0,72,0.7), rgb(192,72,72,0.7)),  url(./3.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(72,0,72,0.7), rgb(192,72,72,0.7)),  url(./3.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 
@@ -78,16 +78,16 @@
 .Fifth_Slide{
     width: 723px;
     height: 335px;
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./5.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./5.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(rgb(131, 98, 131, 0.9), rgba(192, 72, 72, 0.233)),  url(./5.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(131, 98, 131, 0.9), rgba(192, 72, 72, 0.233)),  url(./5.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 
 .Sixth_Slide{
     width: 723px;
     height: 335px;
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./6.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),  url(./6.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(rgb(131, 98, 131, 0.9), rgba(192, 72, 72, 0.233)),  url(./6.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(131, 98, 131, 0.9), rgba(192, 72, 72, 0.233)),  url(./6.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 3px;
 }
 
@@ -178,7 +178,7 @@
 .Banner_Right_Cards_Text2 {
     margin: 0;
     font-size: 20px;
-    color: rgb(255, 72, 0);
+    color: white;
     font-weight: bold;
 }
 
