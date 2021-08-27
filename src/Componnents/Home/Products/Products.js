@@ -65,7 +65,7 @@ const Products = () => {
                     mobiles.map((e) => {
 
                         return (
-                            <div className="flex justify-center">
+                            <div key={e.id} className="flex justify-center">
                                 <Link to={"/product/" + e.id}>
                                     <div className="mb-3 mt-5 bg-white shadow-md hover:shadow-lg Products_Cards">
                                         <img className="mb-2 Products_Images" src={e.image} alt="" />
